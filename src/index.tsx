@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import Router from "routes";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div> Aluroni </div>
+    <Router />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

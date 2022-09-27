@@ -8,7 +8,7 @@
     <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Trato Thec</h3>
+  <h3 align="center">Trato Tech</h3>
 
   <p align="center">
     Projeto do curso: 
