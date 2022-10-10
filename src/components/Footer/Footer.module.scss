@@ -1,3 +1,5 @@
+@import "styles/breakpoints";
+
 .footer {
   align-items: center;
   background-image: url(/assets/footer.png);
@@ -17,5 +19,10 @@
     color: white;
     font-size: 24px;
     text-align: center;
+  }
+  @media (max-width: $mobile-sm) {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
