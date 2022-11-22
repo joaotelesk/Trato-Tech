@@ -1,105 +1,61 @@
-<div align="center">
+# Projeto Guiado - ReactJS🚀
 
-  <a href="https://github.com/joaotelesk/Projeto-aluroni/tree/main/src">
-    <img src="./public/logo.png" alt="Logo" width="80" height="80">
-  </a>
+![image](https://media.giphy.com/media/thBquPInM6fm0/giphy.gif)
 
-  <h3 align="center">Trato Tech</h3>
+---
 
-  <p align="center">
-    Projeto do curso: 
-    <ul>
-    <li><a href="https://cursos.alura.com.br/course/react-gerenciamento-estados-globais-redux">Alura - React: gerenciamento de estados globais com Redux</a></li>
-    </ul>
-  </p>
-</div>
-<br><br>
+## Projeto
 
-# Resumo
+### `Trato-Tech`
 
-<ul>
-<li>Aprenda a criar e gerenciar estados globais com Redux</li>
-<li>Saiba a forma antiga e nova de criar estados com Redux e com Redux Toolkit
-</li>
-<li>Entenda sobre imutabilidade e porque este termo é tão utilizado em gerenciamento de estado
-</li>
-<li>Utilize hooks facilitadores da biblioteca react-redux para conseguir pegar estados e disparar ações
-</li>
-<li>Deixe seu código bem mais fácil de ler e fazer manutenção depois de tirar toda a responsabilidade de estados para o Redux
-</li>
-</ul>
+> ⚠️ Trato-Tech é um projeto do cursos de Redux da plataforma Alura, naqual o assunto que se proponho aprender: Mutabilidade x Imutabilidade no Redux Toolkit com Immer.
 
-<br><br>
+#### Resumo dos conteúdos aplicados
 
-## Getting Started with Create React App
+- Em construção
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://trato-tech-pi.vercel.app/)
 
-[Link Vercel](https://vercel.com/joaotelesk/trato-tech).
+---
 
-## Available Scripts
+# 🧠 Contexto
 
-In the project directory, you can run:
+O objetivo é entender e aplicar conhecimentos de Mutabilidade x Imutabilidade no Redux Toolkit com Immer, de forma pratica em um projeto de e-comerce sem consumo de api ja com os dados mocados na aplicação.
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Tecnologias usadas`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Ferramenta | Descrição                                                             |
+| ---------- | --------------------------------------------------------------------- |
+| `ReactJS`  | framework web                                                         |
+| `npm`      | gerenciador de pacotes                                                |
+| `Vercel`   | Hospedagem para a aplicação, fiz o deploy integrado com o github      |
+| `Github`   | Hospedagem do código fonte integrado com gerenciador de versionamento |
 
-### `npm test`
+<br />
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Como rodar o projeto localmente`
 
-### `npm run build`
+Siga os passos e inclua as informações abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Passo                                                             | Comando/informação |
+| ----------------------------------------------------------------- | ------------------ |
+| Faça o fork                                                       | `botão de forkar`  |
+| Faça o clone via terminarl                                        | `git clone #URL`   |
+| Instale as dependências via terminal após acessar a pasta projeto | `npm i`            |
+| Rode o projeto                                                    | `npm run start`    |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br />
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+_Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, chama no contatinho!_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Vamos nos conectar?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [instagram](https://www.instagram.com/jaootelesk)
+- [linkedin](https://www.linkedin.com/in/jo%C3%A3o-teles-711557239//)
+- [github](https://github.com/joaotelesk)
