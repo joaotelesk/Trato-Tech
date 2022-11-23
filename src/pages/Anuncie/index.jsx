@@ -2,9 +2,10 @@ import Button from "components/Button";
 import Header from "components/Header";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./Anuncie.module.scss";
-import { useForm } from "react-hook-form";
 import { cadastrarItem } from "store/reducers/itens";
 import { useParams } from "react-router-dom";
+import Input from "components/Input";
+import { useForm } from "react-hook-form";
 
 export default function Anuncie() {
   const dispatch = useDispatch();
@@ -30,7 +31,7 @@ export default function Anuncie() {
         descricao="Anuncie seu produto no melhor site do Brasil!"
       />
       <form className={styles.formulario} onSubmit={handleSubmit(cadastrar)}>
-        <input
+        <Input
           className={errors.titulo ? styles["input-erro"] : ""}
           {...register("titulo", { required: "O campo nome é obrigatório" })}
           placeholder="Nome do produto"
@@ -41,7 +42,7 @@ export default function Anuncie() {
             {errors.titulo.message}
           </span>
         )}
-        <input
+        <Input
           className={errors.descricao ? styles["input-erro"] : ""}
           {...register("descricao", {
             required: "O campo descricao é obrigatório",
@@ -54,7 +55,7 @@ export default function Anuncie() {
             {errors.descricao.message}
           </span>
         )}
-        <input
+        <Input
           className={errors.foto ? styles["input-erro"] : ""}
           {...register("foto", { required: "O campo imagem é obrigatório" })}
           placeholder="URL da imagem do produto"
@@ -84,7 +85,7 @@ export default function Anuncie() {
             {errors.categoria.message}
           </span>
         )}
-        <input
+        <Input
           className={errors.preco ? styles["input-erro"] : ""}
           {...register("preco", {
             required: "O campo preco é obrigatório",
