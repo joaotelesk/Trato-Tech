@@ -29,15 +29,14 @@ export default function Anuncie() {
       />
       <form className={styles.formulario} onSubmit={handleSubmit(cadastrar)}>
         <input
-          className={errors.nome ? styles["input-erro"] : ""}
-          {...register("nome", { required: "O campo nome é obrigatório" })}
+          className={errors.titulo ? styles["input-erro"] : ""}
+          {...register("titulo", { required: "O campo nome é obrigatório" })}
           placeholder="Nome do produto"
           alt="nome do produto"
         />
-        {errors.nome && (
+        {errors.titulo && (
           <span className={styles["mensagem-erro"]}>
-            {" "}
-            {errors.nome.message}{" "}
+            {errors.titulo.message}
           </span>
         )}
         <input
@@ -50,21 +49,17 @@ export default function Anuncie() {
         />
         {errors.descricao && (
           <span className={styles["mensagem-erro"]}>
-            {" "}
-            {errors.descricao.message}{" "}
+            {errors.descricao.message}
           </span>
         )}
         <input
-          className={errors.imagem ? styles["input-erro"] : ""}
-          {...register("imagem", { required: "O campo imagem é obrigatório" })}
+          className={errors.foto ? styles["input-erro"] : ""}
+          {...register("foto", { required: "O campo imagem é obrigatório" })}
           placeholder="URL da imagem do produto"
           alt="URL da imagem do produto"
         />
-        {errors.imagem && (
-          <span className={styles["mensagem-erro"]}>
-            {" "}
-            {errors.imagem.message}{" "}
-          </span>
+        {errors.foto && (
+          <span className={styles["mensagem-erro"]}>{errors.foto.message}</span>
         )}
         <select
           className={errors.categoria ? styles["input-erro"] : ""}
@@ -73,8 +68,7 @@ export default function Anuncie() {
           })}
         >
           <option value="" disabled>
-            {" "}
-            Selecione a categoria{" "}
+            Selecione a categoria
           </option>
           {categorias.map((categoria) => (
             <option key={categoria.id} value={categoria.id}>
@@ -84,20 +78,21 @@ export default function Anuncie() {
         </select>
         {errors.categoria && (
           <span className={styles["mensagem-erro"]}>
-            {" "}
-            {errors.categoria.message}{" "}
+            {errors.categoria.message}
           </span>
         )}
         <input
           className={errors.preco ? styles["input-erro"] : ""}
-          {...register("preco", { required: "O campo preco é obrigatório" })}
+          {...register("preco", {
+            required: "O campo preco é obrigatório",
+            valueAsNumber: true,
+          })}
           type="number"
           placeholder="Preço do produto"
         />
         {errors.preco && (
           <span className={styles["mensagem-erro"]}>
-            {" "}
-            {errors.preco.message}{" "}
+            {errors.preco.message}
           </span>
         )}
         <Button type="submit">Cadastrar produto</Button>
