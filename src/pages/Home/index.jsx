@@ -16,7 +16,7 @@ export default function Home() {
         imagem={relogio}
         className={styles.header}
       >
-        <Button>Quero anunciar </Button>
+        <Button onClick={() => navigate("/anuncie")}>Quero anunciar </Button>
       </Header>
       <div className={styles.categorias}>
         <div className={styles["categorias-title"]}>
